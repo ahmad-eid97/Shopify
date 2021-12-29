@@ -1,0 +1,11 @@
+.cartItemsWrapper {
+  margin: 70px 30%;
+}
+
+.noItems {
+  text-align: center;
+  margin-top: 100px;
+  svg {
+    transform: scale(2.5);
+  }
+}

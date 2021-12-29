@@ -1,0 +1,43 @@
+@import '../../assets//sass/Global.scss';
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 5px 30px 5px 10px;
+  .details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+    .inside {
+      h4, p {
+        margin: 0;
+      }
+      h4 {
+        font-size: 18px;
+      }
+      p {
+        color: rgb(100, 100, 100);
+      }
+    }
+  }
+  .action {
+    svg {
+      padding: 10px;
+      border-radius: 10px;
+      background-color: $secondcolor;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

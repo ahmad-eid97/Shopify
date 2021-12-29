@@ -1,0 +1,43 @@
+@import '../../assets//sass/Global.scss';
+
+.itemDetail {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .singleItem {
+    background-color: #fff;
+    width: calc(100%/4);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+    .info {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 30px;
+      h3 {
+        margin: 0;
+      }
+      h6 {
+        font-weight: bold;
+        color: $maincolor;
+        font-size: 15px;
+        span {
+          color: $secondcolor;
+        }
+      }
+    }
+    .desc {
+      text-align: center;
+      p {
+        margin-top: 5px;
+        font-size: 17px;
+      }
+    }
+  }
+}

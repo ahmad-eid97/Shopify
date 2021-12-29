@@ -1,0 +1,50 @@
+@import '../../assets//sass/Global.scss';
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  .formWrapper {
+    background-color: #fff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    .field {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 5px;
+      }
+      input, textarea {
+        border-radius: 5px;
+        padding: 10px 10px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        margin-bottom: 15px;
+        outline: none;
+      }
+      textarea {
+        height: 100px;
+        resize: none;
+      }
+    }
+    .actions {
+      text-align: center;
+      button {
+        width: 40%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: $maincolor;
+        color: #fff;
+        border: none;
+        font-size: 17px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}
